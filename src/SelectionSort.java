@@ -3,7 +3,7 @@ public class SelectionSort {
         int currentIndex=0;
         while(currentIndex<arr.length){
             int minIndex= currentIndex;
-            for(int index=currentIndex;index<arr.length;index++){
+            for(int index=currentIndex+1;index<arr.length;index++){
                 if(arr[index]<arr[minIndex])
                     minIndex = index;
             }
